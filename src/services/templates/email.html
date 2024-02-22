@@ -1,0 +1,20 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Address verification</title>
+</head>
+<body>
+<p>Hi {{username}},</p>
+<p>Thank you for signing up for the service.</p>
+<p>Please click the following link to verify your email address:</p>
+<p>
+    <a href="{{host}}auth/confirm_email/{{token}}">
+        Verification
+    </a>
+</p>
+<p>If you did not sign up for the service, please ignore this email.</p>
+<p>Thanks,</p>
+<p>Our Team</p>
+</body>
+</html>
